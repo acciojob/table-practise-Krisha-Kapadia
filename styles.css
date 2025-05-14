@@ -1,25 +1,18 @@
-/*  your css code here. If applicable */
 table {
-  border-collapse: separate;       /* Allow border spacing */
-  border-spacing: 2px;             /* 2px gap between table border and cells */
-  background-color: yellow;
-  border: 1px solid black;         /* Outer single border */
-  margin: 20px auto;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: yellow; /* Set table background color */
+    border: 1px solid black; /* Border for the table */
 }
 
 caption {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
 
 th, td {
-  border: 1px solid black;         /* Border around each cell */
-  padding: 10px 20px;
-  font-size: 18px;
-  text-align: center;
-}
-
-th {
-  font-weight: bold;
+    border: 1px solid black; /* Border for th and td */
+    padding: 10px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
 }
